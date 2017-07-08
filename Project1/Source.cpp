@@ -9,7 +9,7 @@ a function to convert the time from 12-hour notation to 24-hour notation, a func
 */
 #include <iostream>
 
-void getHr();
+int getHr();
 int to24(int a);
 int to12(int b);
 int hr;
@@ -17,11 +17,13 @@ int hr;
 void main()
 {
 	std::cout << "Hi Class!" << std::endl;
+	getHr();
 	std::cout << hr << std::endl;
 	system("Pause");
 }
-void getHr()
+int getHr()
 {
 	std::cout << "Please enter hour:" << std::endl;
 	std::cin >> hr;
+	return hr;
 }
