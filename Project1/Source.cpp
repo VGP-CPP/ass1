@@ -17,6 +17,7 @@ int hr;
 void main()
 {
 	std::cout << "Hi Class!" << std::endl;
+	std::cout << hr << std::endl;
 	system("Pause");
 }
 void getHr()
